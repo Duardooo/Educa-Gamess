@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Educa Game - Níveis de Dificuldade</title>
+        <link rel="stylesheet" href="../Pages/Style/nivel.css">
+        <script src="../nivel.js" defer></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img src="/EDUCA GAME - ATUALIZADO/logoEduca.jpg" class="logo">
+        <h3 id="saudacao" style="display: none;" class="text">Olá (nome)!</h3>
+        <h3 class="text">Selecione o nível em que deseja jogar:</h3>
+        
+        <!-- Links para os níveis -->
+        <a href="FACIL/nivelFacil.html"><button class="button">FÁCIL</button></a>
+        <a href="MEDIO/nivelMedio.html"><button class="button">MÉDIO</button></a>
+        <a href="DIFICIL/nivelDificl.html"><button class="button">DIFÍCIL</button></a>
+
+        <a href="Home.html" class="textTelaInicial">Voltar para tela inicial</a>
+    </body>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+        </div></div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
+</html>
